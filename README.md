@@ -16,7 +16,7 @@
 
   * 将windows 专业版升级到最新版本 笔者是专业工作站版
 
-    ![image-20200628235614044](./imgs\image-20200628235614044.png)
+    ![image-20200628235614044](https://github.com/Andreby42/WSL2-DockerDeskTop-K8S-Rancher2/blob/master/imgs/image-20200628235614044.png)
 
   * 开启预览者体验计划
 
@@ -24,7 +24,7 @@
 
     注意下图中的预览体验成员设置选择慢（推荐）
 
-    ![image-20200628235826566](C:\Users\ander\Desktop\image-20200628235826566.png)
+    ![image-20200628235826566](https://github.com/Andreby42/WSL2-DockerDeskTop-K8S-Rancher2/blob/master/imgs/image-20200628235826566.png)
 
     之后会有多次重启更新，Don‘t Panic
 
@@ -173,7 +173,7 @@
 
     这样windows盘符会挂载到/下
 
-    ![image-20200629002523354](./imgs\image-20200629002523354.png)
+    ![image-20200629002523354](https://github.com/Andreby42/WSL2-DockerDeskTop-K8S-Rancher2/blob/master/imgs/image-20200629002523354.png)
 
     到这里子系统安装完毕
 
@@ -204,7 +204,7 @@
 
     安装服务完毕，进入系统服务列表查看是否存在 wsl2host 服务正在自动运行 如果存在 那么重启电脑如果没有 按照官方wiki操作(自行百度windows 服务卸载 sc delete wsl2host )
 
-    ![image-20200629004149284](./imgs\image-20200629004149284.png)
+    ![image-20200629004149284](https://github.com/Andreby42/WSL2-DockerDeskTop-K8S-Rancher2/blob/master/imgs/image-20200629004149284.png)
 
     重启完毕后 打开hosts 你会发现多了一行
 
@@ -224,15 +224,15 @@
 
     下载stable 就够了，edge版本会有各种毛病
 
-    ![image-20200629001829667](./imgs\image-20200629001829667.png)
+    ![image-20200629001829667](https://github.com/Andreby42/WSL2-DockerDeskTop-K8S-Rancher2/blob/master/imgs/image-20200629001829667.png)
 
     配置 docker-desktop
 
-    ![image-20200629001921367](./imgs\image-20200629001921367.png)
+    ![image-20200629001921367](https://github.com/Andreby42/WSL2-DockerDeskTop-K8S-Rancher2/blob/master/imgs/image-20200629001921367.png)
 
-    ![image-20200629001933926](./imgs\image-20200629001933926.png)
+    ![image-20200629001933926](https://github.com/Andreby42/WSL2-DockerDeskTop-K8S-Rancher2/blob/master/imgs/image-20200629001933926.png)
 
-    ![image-20200629001944373](./imgs\image-20200629001944373.png)
+    ![image-20200629001944373](https://github.com/Andreby42/WSL2-DockerDeskTop-K8S-Rancher2/blob/master/imgs/image-20200629001944373.png)
 
     配置完毕 重启并进入Linux子系统 查看 输入
 
@@ -258,7 +258,7 @@
 
     当然笔者这里已经开启了。开启完毕会看到左下角的kubernetes is starting.
 
-    ![image-20200629002235214](./imgs\image-20200629002235214.png)
+    ![image-20200629002235214](https://github.com/Andreby42/WSL2-DockerDeskTop-K8S-Rancher2/blob/master/imgs/image-20200629002235214.png)
 
     切换运行上下文
 
@@ -335,19 +335,19 @@
 
     点击添加集群
 
-    ![image-20200629003059308](./imgs\image-20200629003059308.png)
+    ![image-20200629003059308](https://github.com/Andreby42/WSL2-DockerDeskTop-K8S-Rancher2/blob/master/imgs/image-20200629003059308.png)
 
     导入
 
-    ![image-20200629003112288](./imgs\image-20200629003112288.png)
+    ![image-20200629003112288](https://github.com/Andreby42/WSL2-DockerDeskTop-K8S-Rancher2/blob/master/imgs/image-20200629003112288.png)
 
     命名并创建
 
-    ![image-20200629003139219](./imgs\image-20200629003139219.png)
+    ![image-20200629003139219](https://github.com/Andreby42/WSL2-DockerDeskTop-K8S-Rancher2/blob/master/imgs/image-20200629003139219.png)
 
     出现导入命令行
 
-    ![image-20200629003207503](./imgs\image-20200629003207503.png)
+    ![image-20200629003207503](https://github.com/Andreby42/WSL2-DockerDeskTop-K8S-Rancher2/blob/master/imgs/image-20200629003207503.png)
 
     打开子系统
 
@@ -370,7 +370,7 @@
 
     最后
 
-    ![image-20200629003425047](./imgs\image-20200629003425047.png)
+    ![image-20200629003425047](https://github.com/Andreby42/WSL2-DockerDeskTop-K8S-Rancher2/blob/master/imgs/image-20200629003425047.png)
 
     ## 啊 金色传说！
 
