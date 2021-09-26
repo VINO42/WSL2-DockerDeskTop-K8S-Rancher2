@@ -318,7 +318,7 @@
     注意这里的```ubuntu.wsl```就是通过wsl2host 生成的 ，这个很重要
 
     ```
-    sudo docker run -d -v  ubuntu.wsl:/var/lib/rancher/ --restart=unless-stopped -p 10000:80 -p 10443:443 rancher/rancher:stable
+    sudo docker run -d -v   ubuntu.wsl:/var/lib/rancher/ --privilege --restart=unless-stopped -p 10000:80 -p 10443:443 rancher/rancher:stable
     ```
 
     安装完毕 拉取镜像后 打开
