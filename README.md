@@ -24,8 +24,7 @@
 
     注意下图中的预览体验成员设置选择慢（推荐）
 
-    ![image-20200628235826566](https://github.com/Andreby42/WSL2-DockerDeskTop-K8S-Rancher2/blob/master/imgs/image-20200628235826566.png)
-
+![78843d4faab586196afffe76e37973b](https://user-images.githubusercontent.com/17560849/178387089-04429a5b-3961-496f-9abc-d7c9d7a704ca.png)
     之后会有多次重启更新，Don‘t Panic
 
   * 开启WSL2 网上有很多WSL2的开启的教程 这里简单的写下
